@@ -27,52 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <style>
-    .button {
-  background-color:black; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  width: 250px;
-  border-radius: 12px;
-}
-.button5 {
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-}
-
-.button5:hover {
-  background-color: #555555;
-  color: white;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
-}
-
-.skills {
-  display:flex;
-  flex-wrap: wrap; }
-  .skills__skill {
-    padding: 0.5rem ;
-    margin-bottom: 0.5rem;
-    margin-right: 0.5rem;
-    font-size: 1.4rem;
-    background: rgba(153, 153, 153, 0.2);
-    border-radius: 5px;
-    font-weight: 300;
-    color: #777; }
-  
-
-
-  </style>
-
 </head>
 
 <body>
@@ -156,7 +110,6 @@
               Hey! My name is Ismail, and I'm a IT developer with a passion for Frontend and Backend development . I successfully completed my training as an IT developer at the specialist institute for applied technology, pursuing a degree a Specialist technician. I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
             <h2>  <p >   When I'm not on the computer, I enjoy to play chess, doing sports with friends. &#128540;</p>  </h2> 
             </p>
-           <!-- <div class="text-center" ><button class="button button5"> <i class="icofont-file-pdf"></i> <a href="./assets/Lebenslauf.pdf"> Download CV</a></button></div>  -->
          </div>
         </div>
 
@@ -174,81 +127,199 @@
           <h2>Skills</h2>
         </div>
 
-      
-       <div class="about__content-skills">
-        
-        <div class="skills">
-            
-          <div style="text-align: center;">
-            <h3 class="about__content-title">Frontend</h3>
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <div class="skills__skill">Typescript</div>
-          </div> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-          <div style="text-align: center;">
-            <h3 class="about__content-title">Frameworks</h3>
-            <div class="skills__skill">Bootstrap</div>
-            <div class="skills__skill">.NET</div>
-          </div>  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+        <!-- IT-Skills section -->
+    <section class="skills" id="skills">
 
+      <table >
+        <tr>
+          <th > 
+            <h3 class="skill-header">Frontend</h3>
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-html-5.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-javascript.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+              src="assets/icons/icons8-typescript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            </div>
+          </th>
+          <th>
+            <h3 class="skill-header">Backend</h3>
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-c-sharp-logo-2.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-php-logo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />     
+            </div>
+          </th>
+          <th>
+            <h3 class="skill-header">Database</h3>
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="assets/icons/icons8-microsoft-sql-server.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="assets/icons/icons8-mysql-logo.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />     
+            </div>
+          </th>
+        </tr>
+      </table>
      
-         
-          <div style="text-align: center;">
-            <h3 class="about__content-title">Backend</h3>
-            <div class="skills__skill">C#</div>
-            <div class="skills__skill">PHP</div>
-          </div>&nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+      <br> <br> 
 
-          <div style="text-align: center;">
-            <h3 class="about__content-title">Databases</h3>
-            <div class="skills__skill">SQL server</div>
-            <div class="skills__skill">MySQL</div>
-           </div> &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+     <table >
+       <tr>
+         <th>
+          <h3 class="skill-header">Frameworks</h3>
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-bootstrap.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/dot_net_original_wordmark_logo_icon_146547.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />     
+          </div>
+         </th>
+         <th>
+          <h3 class="skill-header">+IT know-how</h3>
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/json_filetype_icon_177531.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/jquery_original_wordmark_logo_icon_146447.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />    
+            <img
+            src="assets/icons/xml_filetype_icon_177509.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />     
+          </div>
+         </th>
+         <th>
+          <h3 class="skill-header">Tools and Editor </h3>
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-visual-studio-code-2019.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-visual-studio-2019.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />     
+            <img
+            src="assets/icons/icons8-office-365.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />     
+          </div> 
+         </th>
+       </tr>
+     </table>
 
-       <!-------------------------------------------->
+     <br> <br> 
 
-       <div style="text-align:center;">
-        <h3 class="about__content-title">Other IT know-how</h3>
-       <div class="skills__skill">JQuery</div>
-       <div class="skills__skill">Ajax</div>
-       <div class="skills__skill">Json / XML</div>
-     </div> 
-
-             &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-         
-         <div style="text-align: center;">
-          <h3 class="about__content-title">Tools and Editor</h3>
-          <div class="skills__skill">Visual Studio</div>
-          <div class="skills__skill">VS Code</div>
-          <div class="skills__skill">MS Office</div>
-         </div>   &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-
+     <table >
+      <tr>
+        <th>
+          <h3 class="skill-header">operating system</h3>
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-windows-10.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/linux_original_logo_icon_146433.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />     
+          </div>
+        </th>
        
-         
-         <div style="text-align: center;">
-          <h3 class="about__content-title">operating system</h3>
-          <div class="skills__skill">Windows</div>
-          <div class="skills__skill">linux</div>
-         </div>   &nbsp; &nbsp;  &nbsp; 
-
-         <div style="text-align: center;">
-          <h3 class="about__content-title">Package Manager</h3>
-          <div class="skills__skill">npm</div>
-         </div>    &nbsp; &nbsp;  &nbsp; 
- 
-         <div style="text-align: center;">
-          <h3 class="about__content-title">CMS</h3>
-          <div class="skills__skill">WordPress</div>
-         </div>   
-
-
+        <th>
+          <h3 class="skill-header">CMS</h3>
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/wordpress_logo_icon_167953.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />   
+          </div>
+        </th>
+        <th>
+          <h3 class="skill-header">Package Manager</h3>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-npm.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          /> 
         </div>
-      </div>
-    </div>
-  </div>
+        </th>
+      </tr>
+    </table> 
 
-      </div>    
+
+    </section>
+      
+      </div>
+
 
        <!-- ======= language skills ======= --> 
       <div class="counts container">
