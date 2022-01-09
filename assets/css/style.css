@@ -389,38 +389,37 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
-}
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-}
+    /* Skills section */
+    .skill-header {
+      margin-bottom: 1rem;
+      text-align: center;
+      border-bottom:1px solid #CCC;
+      padding-bottom:3px;
+    }
 
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
+    .skills-wrapper img {
+      padding: 1.25rem;
+    }
 
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-}
+    .icon {
+      width: 6.875rem;
+      height: 6.25rem;
+    }
+    
+  
+    table {
+      border-collapse: separate;
+      border-spacing: 20px;
+      border-style: dashed;
+      width: 100%;
+      text-align: center;
+    }
 
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #149ddd;
-}
-
+    th{
+      border-style:groove;
+    }
+    /* Skills section ends */
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
