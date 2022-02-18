@@ -410,7 +410,7 @@ section {
   
     table {
       border-collapse: separate;
-      border-spacing: 20px;
+      border-spacing: 10px;
       border-style: dashed;
       width: 100%;
       text-align: center;
@@ -418,6 +418,11 @@ section {
 
     th{
       border-style:groove;
+    }
+
+    .icon-card{
+      width: 70px;
+      height: 70px;
     }
     /* Skills section ends */
 /*--------------------------------------------------------------
