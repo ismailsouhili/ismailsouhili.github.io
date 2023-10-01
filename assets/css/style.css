@@ -234,6 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  
 }
 
 #hero p {
@@ -253,10 +254,15 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
+
   }
 }
 
 @media (max-width: 768px) {
+  /*#hero{
+    background: url(../img/3.jpg) right !important;
+    background-repeat: no-repeat !important; 
+  }*/
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -266,6 +272,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  /*#hero .hero-container{
+    margin-top: -400px;
+  }*/
 }
 
 /*--------------------------------------------------------------

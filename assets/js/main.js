@@ -173,6 +173,13 @@
     items: 1
   });
 
+  const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+  const mobileNavMenu = document.querySelector('.mobile-nav-menu');
+
+  mobileNavToggle.addEventListener('click', () => {
+    mobileNavMenu.classList.toggle('active');
+  });
+
   // Init AOS
   function aos_init() {
     AOS.init({
