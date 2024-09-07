@@ -403,7 +403,7 @@ section {
     .skill-header {
       margin-bottom: 1rem;
       text-align: center;
-      border-bottom:1px solid #CCC;
+      border-bottom:1px solid #149ddd; /*CCC*/
       padding-bottom:3px;
     }
 
