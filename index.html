@@ -27,6 +27,44 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    .card-container {
+      display: block;
+    }
+
+    .card-body {
+      text-align: center;
+    }
+
+    .crd-skills {
+      background-color: transparent;
+      border-radius: 5%;
+      border: 1px solid #149ddd;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    @media (min-width: 768px) {
+      .card-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+
+      .card-body {
+        text-align: center;
+      }
+
+      .card {
+        flex: 3;
+        max-width: 300px;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -132,225 +170,107 @@
 
    
 
-    <!-- ======= Skills Section ======= -->
-   
     <section id="skills" class="skills section-bg">
       <div class="container section-title">
         <h2>Skills</h2>
 
         <!-- IT-Skills section -->
-    <section class="skills" id="skills">
+        <section class="skills" id="skills">
 
-      <table >
-        <tr>
-          <th > 
-            <h3 class="skill-header">Frontend</h3>
-            <div class="first-set animate__animated animate__pulse">
-              <img
-                src="assets/icons/icons8-html-5.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-css3.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-javascript.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
+          <div class="card-container">
+
+            <div class="card  crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">Frontend</h3>
+                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
             </div>
-          </th>
-          <th>
-            <h3 class="skill-header">Backend</h3>
-            <div class="second-set animate__animated animate__pulse">
-              <img
-                src="assets/icons/icons8-c-sharp-logo-2.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-php-logo.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />     
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">Backend</h3>
+                <img src="assets/icons/icons8-c-sharp-logo-2.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-php-logo.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
             </div>
-          </th>
-          <th>
-            <h3 class="skill-header">Database</h3>
-            <div class="second-set animate__animated animate__pulse">
-              <img
-                src="assets/icons/icons8-microsoft-sql-server.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-mysql-logo.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />     
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">Database</h3>
+                <img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-mysql-logo.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
             </div>
-          </th>
-        </tr>
-      </table>
-     
-      <br> <br> 
 
-     <table >
-       <tr>
-         <th>
-          <h3 class="skill-header">Frameworks</h3>
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/icons8-bootstrap.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/dot_net_original_wordmark_logo_icon_146547.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />     
-            <img
-              src="assets/icons/laravel.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />     
-          </div>
-         </th>
-         <th>
-          <h3 class="skill-header">+IT know-how</h3>
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/json_filetype_icon_177531.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/jquery_original_wordmark_logo_icon_146447.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />    
-            <img
-            src="assets/icons/xml_filetype_icon_177509.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />
-            <img
-            src="assets/icons/icons8-git.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          /> 
-           <img
-            src="assets/icons/icons8-github.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />  
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">Frameworks</h3>
+                <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/dot_net_original_wordmark_logo_icon_146547.svg" alt="" loading="lazy"
+                  class="icon icon-card" />
+                <img src="assets/icons/laravel.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
+            </div>
 
           </div>
-         </th>
-       </tr>
-     </table>
 
-     <br> <br> 
+          <br /><br />
 
-     <table >
-      <tr>
-        <th>
-          <h3 class="skill-header">operating system</h3>
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/icons8-windows-10.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/linux_original_logo_icon_146433.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />     
+
+          <div class="card-container">
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">+IT know-how</h3>
+                <img src="assets/icons/json_filetype_icon_177531.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/jquery_original_wordmark_logo_icon_146447.svg" alt="" loading="lazy"
+                  class="icon icon-card" />
+                <img src="assets/icons/xml_filetype_icon_177509.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-github.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
+            </div>
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">operating system</h3>
+                <img src="assets/icons/icons8-windows-10.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/linux_original_logo_icon_146433.svg" alt="" loading="lazy"
+                  class="icon icon-card" />
+              </div>
+            </div>
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">CMS</h3>
+                <img src="assets/icons/wordpress_logo_icon_167953.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/typo3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/shopware.svg" alt="Shopware" loading="lazy" class="icon icon-card" />
+              </div>
+            </div>
+
+            <div class="card crd-skills">
+              <div class="card-body">
+                <h3 class="skill-header">Tools and Editor </h3>
+                <img src="assets/icons/icons8-visual-studio-code-2019.svg" alt="" loading="lazy"
+                  class="icon icon-card" />
+                <img src="assets/icons/icons8-visual-studio-2019.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-office-365.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="assets/icons/icons8-figma.svg" alt="" loading="lazy" class="icon icon-card" />
+              </div>
+            </div>
+
           </div>
-        </th>
-       
-        <th>
-          <h3 class="skill-header">CMS</h3>
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/wordpress_logo_icon_167953.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />   
-            <img
-              src="assets/icons/typo3.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-          <img
-            src="assets/icons/shopware.svg"
-            alt="Shopware"
-            loading="lazy"
-            class="icon icon-card"
-             />   
-          </div>
-        </th>
-        <th>
-          <h3 class="skill-header">Tools and Editor </h3>
-          <div class="second-set animate__animated animate__pulse">
-            <img
-              src="assets/icons/icons8-visual-studio-code-2019.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />
-            <img
-              src="assets/icons/icons8-visual-studio-2019.svg"
-              alt=""
-              loading="lazy"
-              class="icon icon-card"
-            />     
-            <img
-            src="assets/icons/icons8-office-365.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          /> 
-           <img
-            src="assets/icons/icons8-figma.svg"
-            alt=""
-            loading="lazy"
-            class="icon icon-card"
-          />  
-             
-          </div> 
-         </th>
-      </tr>
-    </table> 
 
+
+        </section>
+
+      </div>
 
     </section>
-      
-      </div>
+    <!-- ======= END Skills Section ======= -->
 
 
        <!-- ======= language skills ======= --> 
